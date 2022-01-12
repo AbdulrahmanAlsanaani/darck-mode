@@ -17,6 +17,16 @@ body{
     color: white;
 }
 
+.haide{
+    
+    position: relative;
+    right: 100000px;
+}
+
+.show{
+    position: fixed;
+}
+
 div{
     background-color: black;
     border-radius: 50px;
