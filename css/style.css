@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: cursive;
+    
+}
+
+body{
+    padding: 100px 25% 0 25%;
+}
+
+.dark{
+    background: #222;
+    color: white;
+}
+
+div{
+    background-color: black;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.size{
+    color: wheat;
+    margin: auto;
+    font-size: 25px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: cadetblue;
+}
+p{
+    color: brown;
+    font-size: 1.2rem;
+}
