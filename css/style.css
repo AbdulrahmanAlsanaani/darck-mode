@@ -18,7 +18,6 @@ body{
 }
 
 .haide{
-    
     position: relative;
     right: 100000px;
 }
@@ -28,10 +27,14 @@ body{
 }
 
 div{
-    background-color: black;
+    background-color: rgb(232, 12, 12);
     border-radius: 50px;
     width: 40px;
     height: 40px;
+    position: fixed;
+    z-index: 222225;
+    top: 500px;
+    left: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

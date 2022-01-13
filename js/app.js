@@ -18,17 +18,17 @@ function myFunction() {
     element.classList.toggle("dark");
     var moon = document.getElementById("moon1");
     var sun = document.getElementById("sun1");
-    if(element.className=="dark"){
+    if (element.className == "dark") {
         moon.classList.remove("show");
         moon.classList.toggle("haide");
         sun.classList.remove("haide");
         sun.classList.toggle("show");
-        
-    }else if(element.className != "dark"){
+
+    } else if (element.className != "dark") {
         sun.classList.remove("show");
         sun.classList.toggle("haide");
         moon.classList.remove("haide");
         moon.classList.toggle("show");
-       
+
     }
-    }
+}
